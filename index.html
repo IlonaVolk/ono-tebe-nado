@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,12 +11,48 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header content-section"></header>
+
+    <header class="header content-section">
+      <nav class="header__menu"> <!--дописать все классы, потом сделать для них css:)-->
+        <ul>
+          <li>
+            <a>главная</a>
+          </li>
+          <li>
+            <a>посмотреть лоты</a>
+          </li>
+          <li>
+            <a>об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header-logo">
+        <img class="header-logo-image" href="#0"
+        src="./images/logo-black.svg"
+        alt="Лого проекта">
+      </a>
+      <address class="header__address"> <!--тег address делает курсив, исправить-->
+        <a class="address" href="tel.:+99995555555">+9 999 555 5555</a>
+        <a class="address" href="mailto.:info@sobaka.ge"><br/>info@sobaka.ge</a>
+        <p class="address-auction">наб. Принсенграхт 263-<br/>265, Амстердам</p>
+      </address>
+    </header>
+
     <main class="main">
+
       <section class="cover content-section"></section>
+      <!--надписи: ОН О  ТЕБ Е  Н АД О + надпись внизу + кнопка-->
+
       <section class="lots content-section"></section>
+      <!--надписи: ЛОТЫ + 3 колонки с текстом + посмотреть больше(внизу)-->
+
       <section class="about content-section"></section>
+      <!--надписи: ОБ АУКЦИОНЕ + текст(2 абзаца)-->
+
     </main>
+
     <footer class="footer content-section"></footer>
+    <!--надписи: контакты(слева) + навигация(центр) + иконки соц.сетей(справ в ряд)-->
+
   </body>
 </html>

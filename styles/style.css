@@ -1,1 +1,35 @@
 /* место для вашего кода */
+.body {
+  font-weight: 400;
+}
+
+.content-section {
+  box-sizing: border-box; /*Паддинги находятся внутри ширины(блока), а не добавляли ширину, высоту:)*/
+  width: 100%;
+  margin: auto;
+  background-color: grey;
+}
+
+.header {
+  padding: 92px 24px 96px 24px;
+}
+
+.cover {
+  padding: 96px 0px 179px 0px;
+  background-color: royalblue;
+}
+
+.lots {
+  padding: 179px 24px 146px 24px;
+  background-color: forestgreen;
+}
+
+.about {
+  padding: 146px 24px 180px 24px;
+  background-color: darkslateblue;
+}
+
+.footer {
+  padding: 180px 50px 88px 50px;
+  background-color: olivedrab;
+}
