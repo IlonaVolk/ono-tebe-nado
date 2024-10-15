@@ -12,6 +12,66 @@
 
 .header {
   padding: 92px 24px 96px 24px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  row-gap: 30px;
+  column-gap: 30px; 
+} /*посмотреть расстояние от маркера до названия пункта*/
+
+.header__links-list-item {
+  font-size: 18px;
+  line-height: 21.13px;
+  list-style: circle;
+  color: black; 
+} /*list-style: circle PixelPerfectPlugin поможет изсерить расстояние
+между пунктами меню*/
+
+.header__links-list-item__no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 21.13px;
+  white-space: nowrap;
+} /*white-space: nowrap; - значение, которое запрещает тексту переноситься на другую строку*/
+
+.header__link-active {
+  text-decoration: 0;
+}
+
+.header-logo {
+  display: block; /* этот стиль добавлен, чтобы был зафиксирован р-р картинки*/
+  width: 148px;
+  align-self: center;
+  justify-self: center;
+}
+
+.header-logo-image {
+  width: 100%;
+}
+
+.header__address {
+  justify-self: end;
+  font-style: inherit;
+}
+
+.address {
+  display: block;
+  font-style: inherit;
+  line-height: 1.3;
+  text-underline-position: under;
+}
+
+.address-auction {
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 .cover {
