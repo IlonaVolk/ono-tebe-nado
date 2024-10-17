@@ -10,7 +10,7 @@
   padding: 92px 50px 96px 50px;
   display: grid;
   align-items: center;
-  grid-template-columns: 1.51fr 2fr 1.5fr; 
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
 }
 
 .header__links-list {
@@ -24,7 +24,7 @@
   font-size: 18px;
   line-height: 21.13px;
   list-style: circle;
-  color: black; 
+  color: black;
 }
 
 .header__links-list-item__no-bullit {
@@ -111,7 +111,7 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 2;
   position: relative;
   gap: 20px;
@@ -158,17 +158,17 @@
   font-size: 22px;
   line-height: 28px;
   word-spacing: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bet-button {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
   text-transform: uppercase;
   padding: 12px 32px 11px 31px;
   border-style: solid;
   border-width: 1px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
@@ -191,7 +191,7 @@
   list-style: none;
   display: grid;
   column-gap: 25px;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .lots-card-list-item {
@@ -221,7 +221,7 @@
 .card_type_film {
   background-size: cover;
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .card_title {
@@ -236,7 +236,7 @@
 }
 
 .card_text {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   line-height: 24px;
   position: relative;
@@ -246,18 +246,18 @@
 .card_type_book {
   background-size: cover;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .card_type_picture {
   background-size: cover;
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .lots_look-more-link {
   text-decoration-line: underline;
-  text-underline-position: under; 
+  text-underline-position: under;
   display: block;
   color: #000;
   font-size: 20px;
@@ -284,7 +284,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 150px;
-
 }
 
 .about_logo-image {
