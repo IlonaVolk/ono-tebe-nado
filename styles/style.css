@@ -102,13 +102,13 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  opacity: 1;
   top: 0;
   left: 0;
   pointer-events: none; /* Обеспечивает возможность кликов через элемент */
 }
 
 .cover__title {
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   color: #FFFFFF;
@@ -127,7 +127,7 @@
 
 .letter-spacing-extended {
   letter-spacing: 60px;
-} /*переделать, буквы неправильно стоят:)*/
+}
 
 .aligned-text-center {
   text-align: center;
@@ -140,7 +140,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: -10px;
+  letter-spacing: normal;
 }
 
 .cover__descrpition {
