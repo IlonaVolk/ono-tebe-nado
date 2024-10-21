@@ -62,20 +62,12 @@
   font-style: inherit;
 }
 
-.address_phone-number {
+.address {
   display: block;
   text-decoration: underline;
-  text-underline-position: under;
   font-size: 18px;
-  line-height: 24.3px;
-}
-
-.address_email {
-  font-size: 18px;
-  line-height: 24.3px;
-  display: block;
-  text-decoration: underline;
   text-underline-position: under;
+  line-height: 24.3px;
 }
 
 .address-auction {
@@ -91,6 +83,7 @@
 .cover {
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 165px 50px 51px 50px;
   position: relative;
@@ -170,8 +163,9 @@
   border-width: 1px;
   border-color: #ffffff;
   font-size: 22px;
-  font-weight: 500;
   line-height: 25.83px;
+  cursor: pointer;
+  font-family: 'Ariel', sans-serif;
 }
 
 .lots {
@@ -191,6 +185,7 @@
   list-style: none;
   display: grid;
   column-gap: 25px;
+  row-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -218,10 +213,13 @@
   height: 100%;
 }
 
-.card_type_film {
+.card_type {
   background-size: cover;
-  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
+}
+
+.card_type_film { 
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_title {
@@ -244,15 +242,11 @@
 }
 
 .card_type_book {
-  background-size: cover;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
 }
 
 .card_type_picture {
-  background-size: cover;
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
 }
 
 .lots_look-more-link {
@@ -283,7 +277,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 150px;
+  border-radius: 50%;
 }
 
 .about_logo-image {
@@ -305,7 +299,6 @@
   font-size: 20px;
   line-height: 24px;
   gap: 24px;
-  font-weight: 400px;
   letter-spacing: normal;
 }
 
@@ -313,6 +306,11 @@
   padding: 180px 50px 88px 50px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer__address {
+  justify-self: start;
+  font-style: inherit;
 }
 
 .footer__menu-list {
