@@ -312,15 +312,6 @@
   word-spacing: 0.7px;
 }
 
-.text_adjustment {
-  letter-spacing: -0.0047em;
-}
-
-.text_adjustment_two {
-  letter-spacing: -0.0054em;
-  word-spacing: 1.8px;
-}
-
 .footer {
   padding: 178px 50px 88px 50px;
   display: flex;
