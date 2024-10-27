@@ -7,18 +7,18 @@
 }
 
 .header {
-  padding: 92px 50px 96px 50px; /*padding: 92px 50px 78px 50px;*/
+  padding: 92px 50px 89px 50px;
   display: grid;
   align-items: center;
   grid-template-columns: 1.5fr 1.5fr 1.5fr;
-  background-color: limegreen;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   row-gap: 32px;
-  column-gap: 32px;
+  column-gap: 33px;
+  padding: 0.7px 11px 3px 0.7px;
 }
 
 .header__links-list-item {
@@ -36,6 +36,7 @@
   font-size: 18px;
   line-height: 21.13px;
   white-space: nowrap;
+  text-underline-position: under;
 }
 
 .header__link-active {
@@ -44,10 +45,10 @@
 
 .header-logo {
   display: block;
-  width: 148px;
+  width: 138px;
   align-self: center;
   justify-self: center;
-  margin: 0 184px 2px 36px;
+  margin: 0 184px 2px 31px;
 }
 
 .header-logo-image {
@@ -57,6 +58,7 @@
 .header__address {
   justify-self: end;
   font-style: inherit;
+  margin-left: 2px;
 }
 
 .address {
@@ -66,6 +68,10 @@
   font-size: 18px;
   text-underline-position: under;
   line-height: 24.3px;
+  padding-right: 107px;
+  padding-bottom: 1px;
+  padding-top: 0.9px;
+  word-spacing: 0.4px;
 }
 
 .address-auction {
@@ -95,7 +101,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  pointer-events: none; /* Обеспечивает возможность кликов через элемент */
+  pointer-events: none;
 }
 
 .cover__title {
@@ -142,6 +148,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 80px;
+  letter-spacing: -0.24px;
 }
 
 .cover__descrpition-text {
@@ -206,9 +213,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 28px;
+  column-gap: 30px;
   position: relative;
-  padding: 51px 40px 48px 40px; /*padding: 51px 40px 20px 40px; */
+  padding: 51px 40px 48px 40px;
   width: auto;
   height: 100%;
 }
@@ -262,9 +269,9 @@
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 0 50px 0 50px;
-  column-gap: 25px;
+  grid-template-columns: 1fr 3fr;
+  padding: 33px 26px 2px 68px;
+  column-gap: 24px;
 }
 
 .about_column {
@@ -287,11 +294,12 @@
 }
 
 .about_title {
-  padding: 100px 0 104px 0;
+  padding: 101px 50px 100px 47px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
   line-height: 46.96px;
+  word-spacing: 0.2px;
 }
 
 .about_text {
@@ -300,11 +308,21 @@
   font-size: 20px;
   line-height: 24px;
   gap: 24px;
-  letter-spacing: normal;
+  padding-left: 46px;
+  word-spacing: 0.7px;
+}
+
+.text_adjustment {
+  letter-spacing: -0.0047em;
+}
+
+.text_adjustment_two {
+  letter-spacing: -0.0054em;
+  word-spacing: 1.8px;
 }
 
 .footer {
-  padding: 180px 50px 88px 50px;
+  padding: 178px 50px 88px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -312,6 +330,7 @@
 .footer__address {
   justify-self: start;
   font-style: inherit;
+  margin-left: 1px;
 }
 
 .footer__menu-list {
